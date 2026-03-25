@@ -6,17 +6,17 @@ Este repositório contém as aulas e exercícios de um curso introdutório de pr
 
 - **AULA 02/**: Introdução ao console e variáveis básicas.
 - **AULA 04/**: Coleta de dados com variáveis (let, const, var) e manipulação do DOM.
-- **AULA 05/**: [Descrição breve, se conhecida].
-- **AULA 06/**: [Descrição breve, se conhecida].
-- **AULA 07/**: [Descrição breve, se conhecida].
-- **AULA 08/**: [Descrição breve, se conhecida].
-- **AULA 09/**: [Descrição breve, se conhecida].
-- **AULA 10/**: [Descrição breve, se conhecida].
-- **AULA 11/**: [Descrição breve, se conhecida].
-- **AULA 12/**: [Descrição breve, se conhecida].
-- **AULA 13/**: [Descrição breve, se conhecida].
-- **AULA 14/**: [Descrição breve, se conhecida].
-- **AULA 15/**: [Descrição breve, se conhecida].
+- **AULA 05/**: Operadores Aritméticos
+- **AULA 06/**: Operadores de Comparação e Lógicos
+- **AULA 07/**: Condicionais
+- **AULA 08/**: Switch
+- **AULA 09/**: Funções
+- **AULA 10/**: Funções
+- **AULA 11/**: Funções Anônimas e Arrow Functions
+- **AULA 12/**: Arrays
+- **AULA 13/**: JavaScript: JS
+- **AULA 14/**: Variáveis
+- **AULA 15/**: For Each e Map
 - **AULA 16/**: Trabalhando com objetos em JavaScript.
 
 Cada aula contém:
