@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //ForEach - Percorre cada item do array e executa uma ação, SEM retornar um novo array
+        const nomes = ["Jéssica" , "Eduardo" , "Luciano"];
+        nomes.forEach((nome,index)=>{
+           console.log(`Nome do Cliente ${index}: ${nome}`) 
+        })
+
+       //Map - Percorre cada item do array e retorna um novo array
+       const valores = [1000, 1500, 2000];
+       const honorarios = valores.map(valor=>valor*0.2);
+       console.log(honorarios) 
+    </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador Jurídico</title>
+</head>
+<body>
+    <h1>Simulador Juridico: Geração de Petição</h1>
+    <label>Nome do Cliente: </label>
+    <input type="text" id="Nome" placeholder="digite o nome completo">
+    <br><br>
+    <label>Tipo de Ação (ex: civel, penal, administrativo, tributário):</label>
+    <input type="text" id="Acao" placeholder = "digite a ação">
+    <br><br>
+    <label>Valor da Causa (R$):</label>
+    <input type="number" id="Valor">
+    <br><br>
+    <button onclick="gerarPeticaoCompleta()">Gerar a Petição</button>
+    <h3>Resultado:</h3>
+    <pre id="saida"></pre>
+    <p id="Data"></p>
+    <script src="main.js"></script>
+</body>
+</html>

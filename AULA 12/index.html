@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays</title>
+</head>
+<body>
+    <h1>Manipulando Arrays</h1>
+    <p id="clientToDay"></p>
+
+    <label>1º cliente do dia:</label>
+    <p id="name"></p>
+
+    <label>Quantidade de Clientes:</label>
+    <p id="allQtd"></p>
+
+    <label>novo cliente:</label>
+    <p id="newName"></p>
+
+    <label>retirando cliente:</label>
+    <p id="removeName"></p>
+    
+    <script>
+        //Criando Arrays de clientes
+        var clientArrays = ["Carla", "Ederson", "David", "Jorge", "Ellen"];
+        document.getElementById("clientToDay").innerHTML = clientArrays;
+
+        //acessando o 1º cliente
+        var name1 = clientArrays[0];
+        document.getElementById("name").innerHTML = name1;
+
+        
+        //adicionando novo cliente-final lista
+        clientArrays.push("Jessica");
+        //adicionando novo cliente no início da lista
+        clientArrays.unshift("Eduardo");        
+        document.getElementById("newName").innerHTML = clientArrays;
+
+        //removendo final da lista
+        clientArrays.pop();
+        //removendo inicio da lista
+        //clientArrays.shift()
+        document.getElementById("removeName").innerHTML = clientArrays
+
+    
+        //acessando qtd de clientes
+        var qtd = clientArrays.length;
+        document.getElementById("allQtd").innerHTML = qtd;
+
+
+       
+
+</script>
+</body>
+</html>
